@@ -1,4 +1,4 @@
-# Website
+# Website Architecture
 
   * Index.html: Frontend
   * Node: Backend
