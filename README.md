@@ -6,7 +6,7 @@
   * MongoExpress: Mongo UI
 
 # Docker Commands
-  ### Initial Commands
+  ### Initial Commands:
     docker network create mongo-network
     docker pull mongo
     docker pull mongo-express
