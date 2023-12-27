@@ -16,3 +16,4 @@ Docker Commands:
   MongoExpress:
     -> docker pull mongo-express
     -> docker run -p 8081:8081 -e ME_CONFIG_MONGODB_ADMINUSERNAME=admin -e ME_CONFIG_MONGODB_ADMINPASSWORD=password -e ME_CONFIG_MONGODB_SERVER=mongodb -d --network mongo-network --name mongo-express mongo-express
+    -> login with admin:pass in mongoexpress
