@@ -1,0 +1,5 @@
+Website:
+  -> Index.html: Frontend
+  -> Node: Backend
+  -> MongoDB: Database
+  -> MongoExpress: Mongo UI
