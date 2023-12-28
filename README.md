@@ -17,7 +17,6 @@
   * login with admin:pass in mongoexpress
   * Create database user-accounts
 
-  ![image](https://github.com/tanish-mahajan/Devops-Project/assets/69743287/d3d84a41-7158-45c0-a90f-06084ee620a4)
 # Docker Compose YAML File
     version: '3.8'
     services:
