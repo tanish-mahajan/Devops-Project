@@ -14,4 +14,8 @@
     docker run -p 27017:27017 -e MONGO_INITDB_ROOT_USERNAME=admin -e MONGO_INITDB_ROOT_PASSWORD=password --name mongodb --network mongo-network -d mongo
   ### MongoExpress:
     docker run -p 8081:8081 -e ME_CONFIG_MONGODB_ADMINUSERNAME=admin -e ME_CONFIG_MONGODB_ADMINPASSWORD=password -e ME_CONFIG_MONGODB_SERVER=mongodb -d --network mongo-network --name mongo-express mongo-express
-  ***login with admin:pass in mongoexpress***
+  * login with admin:pass in mongoexpress
+  * Create database user-accounts
+
+  ![image](https://github.com/tanish-mahajan/Devops-Project/assets/69743287/d3d84a41-7158-45c0-a90f-06084ee620a4)
+
