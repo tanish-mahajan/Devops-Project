@@ -39,6 +39,10 @@
 # Docker Compose YAML File
     version: '3.8'
     services:
+      my-app:
+        image: my-app:1.0
+        ports:
+          - 3000:3000
       mongodb:
         image: mongo
         ports:
