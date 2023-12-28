@@ -19,10 +19,9 @@
     
     # no need for /home/app/server.js because of WORKDIR
     CMD ["node", "server.js"]
-### Docker commands for Application Image
+    
+### Docker commands for Application Image:
     docker build -t my-app:1.0 .
-
-
 
 # Docker Commands for MongoDB and MongoExpress
   ### Initial Commands:
