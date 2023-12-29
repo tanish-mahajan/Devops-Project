@@ -5,6 +5,7 @@
   * MongoDB: Database
   * MongoExpress: Mongo UI
 # Build Docker Image for Application
+### Docker Image content:
     FROM node:13-alpine
     
     RUN mkdir -p /home/app
@@ -20,7 +21,7 @@
     # no need for /home/app/server.js because of WORKDIR
     CMD ["node", "server.js"]
     
-### Docker commands for Application Image:
+### Docker commands for making application image:
     docker build -t my-app:1.0 .
 
 # Docker Commands for MongoDB and MongoExpress
