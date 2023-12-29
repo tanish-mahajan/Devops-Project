@@ -51,6 +51,8 @@
         environment:
           - MONGO_INITDB_ROOT_USERNAME=admin
           - MONGO_INITDB_ROOT_PASSWORD=password
+        volumes:
+          - mongo-data:/data/db
     
       mongo-express:
         image: mongo-express
@@ -60,6 +62,9 @@
           - ME_CONFIG_MONGODB_ADMINUSERNAME=admin
           - ME_CONFIG_MONGODB_ADMINPASSWORD=password
           - ME_CONFIG_MONGODB_SERVER=mongodb
+      volumes:
+        mongo-data:
+          driver: local
  ### Run all containers
     docker-compose -f docker-compose.yaml up -d
  ### Stop all containers
