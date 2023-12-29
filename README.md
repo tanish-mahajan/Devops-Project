@@ -62,9 +62,10 @@
           - ME_CONFIG_MONGODB_ADMINUSERNAME=admin
           - ME_CONFIG_MONGODB_ADMINPASSWORD=password
           - ME_CONFIG_MONGODB_SERVER=mongodb
-      volumes:
-        mongo-data:
-          driver: local
+          
+    volumes:
+      mongo-data:
+        driver: local
  ### Run all containers
     docker-compose -f docker-compose.yaml up -d
  ### Stop all containers
