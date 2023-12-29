@@ -24,7 +24,7 @@
 ### Docker commands for making application image:
     docker build -t my-app:1.0 .
 
-# Docker Commands for MongoDB and MongoExpress
+# Docker Command for MongoDB and MongoExpress
   ### Initial Commands:
     docker network create mongo-network
     docker pull mongo
