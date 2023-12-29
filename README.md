@@ -59,7 +59,7 @@
           - ME_CONFIG_MONGODB_ADMINUSERNAME=admin
           - ME_CONFIG_MONGODB_ADMINPASSWORD=password
           - ME_CONFIG_MONGODB_SERVER=mongodb
- ### Run with command
+ ### Run all containers
     docker-compose -f docker-compose.yaml up -d
  ### Stop all containers
     docker-compose -f docker-compose.yaml down
